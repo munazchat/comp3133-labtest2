@@ -1,0 +1,17 @@
+.child-card{
+    background-color: rgba(255, 255, 128, .5);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .card-header{
+    border-bottom-style: double;
+    border-bottom-width: 10px;
+    margin-bottom: 10px;
+  }
+  
+  

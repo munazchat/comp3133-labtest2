@@ -1,0 +1,15 @@
+<h1 class="header"> space x mission showing</h1>
+<nav>
+  <a
+    (click) = "onClick(Missions)"
+    *ngFor="let Missions of Mission"
+  >
+    <mat-card class="rocket-card">
+      <mat-card-header>
+        <img mat-card-avatar />
+        <mat-card-title>{{ mission.mission_name }}</mat-card-title>
+        <mat-card-subtitle>{{ mission.launch_year }}</mat-card-subtitle>
+      </mat-card-header>
+  </a>
+</nav>
+<router-outlet></router-outlet>

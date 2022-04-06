@@ -1,0 +1,15 @@
+.rocket-card{
+    background-color: rgb(88, 135, 178);
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .rocket-card:hover{
+    background-color: rgb(31, 84, 133);
+  }
+  
